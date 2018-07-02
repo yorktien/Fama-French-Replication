@@ -21,7 +21,7 @@ library(dplyr)         # Data wrangling
 # (1) CRSP Data setup
 #-----------------------------------
 
-setwd("/run/media/john/1TB/Projects/Fama-French Replicatoin/")
+setwd("D:/calculatinginvestor/fama_french_regression")
 crsp <- read_csv(("Crsp.csv"))
 # crsp2 <- read.csv("Crsp.csv", stringsAsFactors = FALSE)
 
